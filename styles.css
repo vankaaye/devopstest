@@ -104,33 +104,14 @@ body {
   font-weight: 600;
 }
 
-.mca-shield {
-  background: linear-gradient(135deg, #1a4a1a, #2d6a2d);
-  border: 2px solid var(--accent-gold);
+.site-logo {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+  /* Logo has a white background — give it a subtle rounded container */
+  background: white;
   border-radius: 8px;
-  padding: 0.4rem 0.8rem;
-  text-align: center;
-}
-
-.shield-stars {
-  color: var(--accent-gold);
-  font-size: 0.7rem;
-  letter-spacing: 2px;
-}
-
-.shield-mca {
-  font-size: 1.3rem;
-  font-weight: 900;
-  color: white;
-  line-height: 1;
-}
-
-.shield-sub {
-  font-size: 0.45rem;
-  color: var(--accent-gold);
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  line-height: 1.3;
+  padding: 4px 8px;
 }
 
 /* ---- NAV ---- */
@@ -570,6 +551,11 @@ body {
   padding: 2rem 1.5rem;
   width: 280px;
   text-align: center;
+}
+
+.rule-card-single {
+  width: 420px;
+  max-width: 100%;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   transition: transform 0.2s, box-shadow 0.2s;
 }
